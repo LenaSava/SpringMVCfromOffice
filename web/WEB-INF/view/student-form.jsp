@@ -8,11 +8,11 @@
 <body>
 <form:form action ="processForm" modelAttribute="student">
 
-First name: <form:input path="firstName" />
-<br><br>
+    First name: <form:input path="firstName" />
+    <br><br>
 
-Last name: <form:input path="lastName" />
-<br><br>
+    Last name: <form:input path="lastName" />
+    <br><br>
 
     Java <form:radiobutton path="favoriteLanguage" value="Java" />
     C# <form:radiobutton path="favoriteLanguage" value="C#" />
@@ -20,7 +20,7 @@ Last name: <form:input path="lastName" />
     Ruby <form:radiobutton path="favoriteLanguage" value="Ruby" />
 
     <br><br>
-Operating systems:
+    Operating systems:
     <br><br>
 
     linux <form:checkbox path="operatingSystems" value="Linux" />
@@ -30,7 +30,7 @@ Operating systems:
 
     <br><br>
 
-<input type="submit" value="Submit" />
+    <input type="submit" value="Submit" />
 </form:form>
 
 </body>

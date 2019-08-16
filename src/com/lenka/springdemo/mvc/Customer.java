@@ -1,8 +1,19 @@
 package com.lenka.springdemo.mvc;
+
 public class Customer {
 
     private String firstName;
     private String lastName;
+
+    private String postalCode;
+
+    public String getPostalCode() {
+        return postalCode;
+    }
+
+    public void setPostalCode(String postalCode) {
+        this.postalCode = postalCode;
+    }
 
     public String getFirstName() {
         return firstName;

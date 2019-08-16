@@ -13,7 +13,7 @@ Favorite System:
 
 <ul>
     <c:forEach var="temp" items="${student.operatingSystems}" >
-    <li>${temp}</li>
+        <li>${temp}</li>
     </c:forEach>
 </ul>
 
