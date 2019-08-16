@@ -1,10 +1,13 @@
 package com.lenka.springdemo.mvc;
 
+import com.lenka.springdemo.mvc.validation.CourseCode;
+
 public class Customer {
 
     private String firstName;
     private String lastName;
 
+    @CourseCode
     private String postalCode;
 
     public String getPostalCode() {
